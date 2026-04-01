@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Parte interna do conteudo*/
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fffcfcfa;
+   
+}
+
+/*a parte de cima aonde fica o nome*/
+header{
+    background-color: rgb(136, 90, 113);
+    color:black;
+    text-align: center;
+    padding: 3%;
+
+}
+
+
+.img-perfil{
+    width: 10%;
+    border-radius: 50%;
+
+}
+
+/*a parte de baixo do B.A.O*/
+footer{
+    background-color: rgb(136, 90, 113);
+    color:black;
+    text-align: center;
+    padding: 1em;
+
+}
+
+/*cor do conteudo*/
+.conteudo{
+    background-color: rgb(245, 238, 230) !important;
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 120%;
+
+}
+
+/*texto do conteudo*/
+a{
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+}
+
+/*diferença do nome até o conteudo*/
+.principal{
+    /*a lagura da direita*/
+    margin-left: 15% !important;
+    /*a largura do conteudo da direita*/
+    margin-right: 25% !important;
+    /*o coisa da separação da cabeça ao conteudo*/
+    margin-top: 3% !important;
+
+}
+
+.img-icone{
+    width: 90% !important;
+}
+
+.txt-icone{
+    font-size: 200% !important;
+}
+
+@media (min-width: 200px) and (max-width:768px){
+    .img-icone{
+        width: 20% !important;
+    }
+    .txt-icone{
+    font-size: 140% !important;
+    }
+
+    .conteudo{
+    background-color: rgba(163, 119, 165, 0.267) !important;
+    padding: 1em !important;
+    margin-top: 2em !important;
+    border-radius: 10px !important;
+    width: 130%;
+    }
+
+    .principal{
+    text-align: center;
+    /*Tamanho do conteudo quando ta como celular*/
+    margin-left: 10% !important;
+    /*conteudo*/
+    margin-right: 25% !important;
+    /*da cabeça ao conteudo*/
+    margin-top: 1% !important;
+    /*distancia de baixo*/
+    margin-bottom: 50% !important;
+    }
+    .img-perfil{
+    width: 30% !important;
+    border-radius: 50% !important;
+    }
+}
